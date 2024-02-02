@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Di$ect Preferences Page</title>
+    <link rel="stylesheet" href="./options.css" />
+    <script type="text/javascript" src="options.js"></script>
+  </head>
+
+  <body>
+    <h1>Di$ect Preferences Page</h1>
+    <form action="">
+      <label for="options-causes">What causes do you want to hear about?</label>
+      <ul class="no-bullets">
+        <li>
+          <input
+            type="checkbox"
+            id="options-causes"
+            name="options-causes"
+          />Labor Rights
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="options-causes"
+            name="options-causes"
+          />Vegan
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="options-causes"
+            name="options-causes"
+          />Environmentally Friendly
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="options-causes"
+            name="options-causes"
+          />Carbon Emissions
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="options-causes"
+            name="options-causes"
+          />Black Owned
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="options-causes"
+            name="options-causes"
+          />LGBTQ
+        </li>
+      </ul>
+      <input
+        type="reset"
+        onClick="restoreDefaultOptions()"
+        value="Restore default options"
+      />
+    </form>
+  </body>
+</html>

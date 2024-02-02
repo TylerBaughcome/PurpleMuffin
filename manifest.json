@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Di$ect",
+  "description": "Eating cunt baby $$$",
+  "version": "1.0",
+  "author": "@di$ectTeam",
+  "content_scripts": [
+    {
+      "js": ["scripts/content-script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/disect_icon.png"
+  },
+  "options_page": "options/options.html",
+  "permissions": ["activeTab", "storage", "geolocation", "tabs"]
+}
